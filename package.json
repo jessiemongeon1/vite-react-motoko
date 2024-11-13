@@ -7,7 +7,7 @@
     "setup": "npm i && dfx canister create backend && dfx generate backend",
     "build": "tsc && vite build",
     "format": "prettier --write \"src/**/*.{json,js,jsx,ts,tsx,css,scss}\" \"backend/**/*.mo\"",
-    "sources": "mops sources",
+    "sources": "mops sources"
   },
   "dependencies": {
     "@ic-reactor/react": "^1.7.8",
